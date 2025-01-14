@@ -1,5 +1,8 @@
 # -- Skeez's SPP Legion Server Manager --
 
+![image](https://github.com/user-attachments/assets/a5adff9e-e0a3-4979-9a7b-dc0e45155356)
+
+
 This will start/stop servers as needed and show their status. This will require admin permission to be able to check processes that this launcher doesn't own (such as restarting while servers already running)
 
 ** **NOTE** ** -- There is no console access with this to the world server, no way to see status, and no way to send it commands. Check server.log if you need to see what's happening
