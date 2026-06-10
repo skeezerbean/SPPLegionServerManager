@@ -111,7 +111,7 @@ namespace SPPLegionServerManager.ViewModels
 				switch (service)
 				{
 					case "DB":
-						p.StartInfo.Arguments = "--defaults-file=" + RepackPath + "\"\\Database\\SPP-Database.ini\" --console --standalone --log_syslog=0 --explicit_defaults_for_timestamp --sql-mode=\"\" --log_error_verbosity=1";
+						p.StartInfo.Arguments = "--defaults-file=" + RepackPath + "\"\\Database\\SPP-Database.ini\" --console --standalone --explicit_defaults_for_timestamp --sql-mode=\"\" --log_error_verbosity=1";
 						p.StartInfo.FileName = RepackPath + "\\Database\\bin\\mysqld.exe";
 						break;
 					case "BNET":
